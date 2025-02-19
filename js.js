@@ -12,7 +12,7 @@ pageForm.addEventListener("submit", (e) => {
   card.innerHTML = `
   <input type="checkbox" class="task-checkbox" onclick="toggleTaskCompletion(event)">
   <span>${tasks.newTask}</span>
-  <button onclick="deleteCard(event)" style="display: block; margin-left: 18em">DELETE</button>
+  <button onclick="deleteCard(event)" style="display: block; margin-left: 18em; background-color: rgb(226, 33, 19)">DELETE</button>
   `;
   const cardContainer = document.getElementById("saved-task");
   cardContainer.appendChild(card);

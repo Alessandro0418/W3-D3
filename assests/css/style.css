@@ -167,11 +167,7 @@ form div {
 }
 
 #add-button {
-  background: linear-gradient(
-    109.6deg,
-    rgb(255, 230, 109) 11.2%,
-    rgb(87, 232, 107) 100.2%
-  );
+  background-color: rgba(24, 219, 24, 0.87);
   color: black;
   font-weight: bold;
 }
