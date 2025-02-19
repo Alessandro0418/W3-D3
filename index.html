@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assests/css/reset.css" />
+    <link rel="stylesheet" href="/assests/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>To-do list</title>
+  </head>
+  <body>
+    <header>
+      <h1>My tasks <i class="fas fa-clipboard-list"></i></h1>
+    </header>
+    <main>
+      <form id="new-task-form">
+        <div>
+          <label for="task"
+            >Add a new task <i class="fas fa-angle-double-right"></i
+          ></label>
+          <input type="text" id="task" />
+        </div>
+        <div>
+          <button id="add-button">
+            <i class="fas fa-plus fa-xs"></i>
+          </button>
+        </div>
+      </form>
+      <section>
+        <div id="saved-task"></div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="/js.js"></script>
+  </body>
+</html>
